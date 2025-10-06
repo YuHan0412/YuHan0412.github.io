@@ -1,77 +1,272 @@
 <!DOCTYPE html>
-<html>
 
+
+<html theme="dark" showBanner="true" hasBanner="false" > 
+<link href="https://cdn.staticfile.org/font-awesome/6.4.2/css/fontawesome.min.css" rel="stylesheet">
+<link href="https://cdn.staticfile.org/font-awesome/6.4.2/css/brands.min.css" rel="stylesheet">
+<link href="https://cdn.staticfile.org/font-awesome/6.4.2/css/solid.min.css" rel="stylesheet">
+<script src="/js/color.global.min.js" ></script>
+<script src="/js/load-settings.js" ></script>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="theme-color" content="#33474d">
-	<title>Hexo</title>
-	<link rel="stylesheet" href="/css/style.css" />
-	
-      <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-    
+  <meta charset="utf-8">
+  
+  
+  
+
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" href="/css/fonts/Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="/css/fonts/Roboto-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" media="(prefers-color-scheme: light)" href="/images/favicon-light-32.png" sizes="32x32">
+    <link rel="icon" media="(prefers-color-scheme: light)" href="/images/favicon-light-128.png" sizes="128x128">
+    <link rel="icon" media="(prefers-color-scheme: light)" href="/images/favicon-light-180.png" sizes="180x180">
+    <link rel="icon" media="(prefers-color-scheme: light)" href="/images/favicon-light-192.png" sizes="192x192">
+    <link rel="icon" media="(prefers-color-scheme: dark)" href="/images/favicon-dark-32.png" sizes="32x32">
+    <link rel="icon" media="(prefers-color-scheme: dark)" href="/images/favicon-dark-128.png" sizes="128x128">
+    <link rel="icon" media="(prefers-color-scheme: dark)" href="/images/favicon-dark-180.png" sizes="180x180">
+    <link rel="icon" media="(prefers-color-scheme: dark)" href="/images/favicon-dark-192.png" sizes="192x192">
+  
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
 <meta name="generator" content="Hexo 7.3.0"></head>
 
 <body>
+  
+   
+  <div id="main-grid" class="  ">
+    <div id="nav" class=" is_home "  >
+      <navbar id="navbar">
+  <nav id="title-nav">
+    <a href="/">
+      <div id="vivia-logo">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <div>Hexo </div>
+    </a>
+  </nav>
+  <nav id="main-nav">
+    
+      <a class="main-nav-link" href="/">Home</a>
+    
+      <a class="main-nav-link" href="/archives">Archives</a>
+    
+      <a class="main-nav-link" href="/about">About</a>
+    
+  </nav>
+  <nav id="sub-nav">
+    <a id="theme-btn" class="nav-icon">
+      <span class="light-mode-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M438.5-829.913v-48q0-17.452 11.963-29.476 11.964-12.024 29.326-12.024 17.363 0 29.537 12.024t12.174 29.476v48q0 17.452-11.963 29.476-11.964 12.024-29.326 12.024-17.363 0-29.537-12.024T438.5-829.913Zm0 747.826v-48q0-17.452 11.963-29.476 11.964-12.024 29.326-12.024 17.363 0 29.537 12.024t12.174 29.476v48q0 17.452-11.963 29.476-11.964 12.024-29.326 12.024-17.363 0-29.537-12.024T438.5-82.087ZM877.913-438.5h-48q-17.452 0-29.476-11.963-12.024-11.964-12.024-29.326 0-17.363 12.024-29.537t29.476-12.174h48q17.452 0 29.476 11.963 12.024 11.964 12.024 29.326 0 17.363-12.024 29.537T877.913-438.5Zm-747.826 0h-48q-17.452 0-29.476-11.963-12.024-11.964-12.024-29.326 0-17.363 12.024-29.537T82.087-521.5h48q17.452 0 29.476 11.963 12.024 11.964 12.024 29.326 0 17.363-12.024 29.537T130.087-438.5Zm660.174-290.87-34.239 32q-12.913 12.674-29.565 12.174-16.653-.5-29.327-13.174-12.674-12.673-12.554-28.826.12-16.152 12.794-28.826l33-35q12.913-12.674 30.454-12.674t30.163 12.847q12.709 12.846 12.328 30.826-.38 17.98-13.054 30.653ZM262.63-203.978l-32 34q-12.913 12.674-30.454 12.674t-30.163-12.847q-12.709-12.846-12.328-30.826.38-17.98 13.054-30.653l33.239-31q12.913-12.674 29.565-12.174 16.653.5 29.327 13.174 12.674 12.673 12.554 28.826-.12 16.152-12.794 28.826Zm466.74 33.239-32-33.239q-12.674-12.913-12.174-29.565.5-16.653 13.174-29.327 12.673-12.674 28.826-13.054 16.152-.38 28.826 12.294l35 33q12.674 12.913 12.674 30.454t-12.847 30.163q-12.846 12.709-30.826 12.328-17.98-.38-30.653-13.054ZM203.978-697.37l-34-33q-12.674-12.913-13.174-29.945-.5-17.033 12.174-29.707t31.326-13.293q18.653-.62 31.326 13.054l32 34.239q11.674 12.913 11.174 29.565-.5 16.653-13.174 29.327-12.673 12.674-28.826 12.554-16.152-.12-28.826-12.794ZM480-240q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Zm-.247-82q65.703 0 111.475-46.272Q637-414.544 637-480.247t-45.525-111.228Q545.95-637 480.247-637t-111.475 45.525Q323-545.95 323-480.247t45.525 111.975Q414.05-322 479.753-322ZM481-481Z"/></svg></span>
+      <span class="dark-mode-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M480.239-116.413q-152.63 0-258.228-105.478Q116.413-327.37 116.413-480q0-130.935 77.739-227.435t206.304-125.043q43.022-9.631 63.87 10.869t3.478 62.805q-8.891 22.043-14.315 44.463-5.424 22.42-5.424 46.689 0 91.694 64.326 155.879 64.325 64.186 156.218 64.186 24.369 0 46.978-4.946 22.609-4.945 44.413-14.076 42.826-17.369 62.967 1.142 20.142 18.511 10.511 61.054Q807.174-280 712.63-198.206q-94.543 81.793-232.391 81.793Zm0-95q79.783 0 143.337-40.217 63.554-40.218 95.793-108.283-15.608 4.044-31.097 5.326-15.49 1.283-31.859.805-123.706-4.066-210.777-90.539-87.071-86.473-91.614-212.092-.24-16.369.923-31.978 1.164-15.609 5.446-30.978-67.826 32.478-108.282 96.152Q211.652-559.543 211.652-480q0 111.929 78.329 190.258 78.329 78.329 190.258 78.329ZM466.13-465.891Z"/></svg></span>
+    </a>
+    
+      <a id="nav-rss-link" class="nav-icon mobile-hide" href="/atom.xml" title="RSS Feed">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M198-120q-25.846 0-44.23-18.384-18.384-18.385-18.384-44.23 0-25.846 18.384-44.23 18.384-18.385 44.23-18.385 25.846 0 44.23 18.385 18.384 18.384 18.384 44.23 0 25.845-18.384 44.23Q223.846-120 198-120Zm538.385 0q-18.846 0-32.923-13.769-14.076-13.769-15.922-33.23-8.692-100.616-51.077-188.654-42.385-88.039-109.885-155.539-67.5-67.501-155.539-109.885Q283-663.462 182.385-672.154q-19.461-1.846-33.23-16.23-13.769-14.385-13.769-33.846t14.076-32.922q14.077-13.461 32.923-12.23 120.076 8.692 226.038 58.768 105.961 50.077 185.73 129.846 79.769 79.769 129.846 185.731 50.077 105.961 58.769 226.038 1.231 18.846-12.538 32.922Q756.461-120 736.385-120Zm-252 0q-18.231 0-32.423-13.461t-18.653-33.538Q418.155-264.23 348.886-333.5q-69.27-69.27-166.501-84.423-20.077-4.462-33.538-18.961-13.461-14.5-13.461-33.346 0-19.076 13.884-33.23 13.884-14.153 33.115-10.922 136.769 15.384 234.384 112.999 97.615 97.615 112.999 234.384 3.231 19.23-10.538 33.115Q505.461-120 484.385-120Z"/></svg>
+      </a>
+    
+    <div id="nav-menu-btn" class="nav-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M177.37-252.282q-17.453 0-29.477-11.964-12.024-11.963-12.024-29.326t12.024-29.537q12.024-12.174 29.477-12.174h605.26q17.453 0 29.477 11.964 12.024 11.963 12.024 29.326t-12.024 29.537q-12.024 12.174-29.477 12.174H177.37Zm0-186.218q-17.453 0-29.477-11.963-12.024-11.964-12.024-29.326 0-17.363 12.024-29.537T177.37-521.5h605.26q17.453 0 29.477 11.963 12.024 11.964 12.024 29.326 0 17.363-12.024 29.537T782.63-438.5H177.37Zm0-186.217q-17.453 0-29.477-11.964-12.024-11.963-12.024-29.326t12.024-29.537q12.024-12.174 29.477-12.174h605.26q17.453 0 29.477 11.964 12.024 11.963 12.024 29.326t-12.024 29.537q-12.024 12.174-29.477 12.174H177.37Z"/></svg>
+    </div>
+  </nav>
+</navbar>
+<div id="nav-dropdown" class="hidden">
+  <div id="dropdown-link-list">
+    
+      <a class="nav-dropdown-link" href="/">Home</a>
+    
+      <a class="nav-dropdown-link" href="/archives">Archives</a>
+    
+      <a class="nav-dropdown-link" href="/about">About</a>
+    
+    
+      <a class="nav-dropdown-link" href="/atom.xml" title="RSS Feed">RSS</a>
+     
+    </div>
+</div>
+<script>
+  let dropdownBtn = document.getElementById("nav-menu-btn");
+  let dropdownEle = document.getElementById("nav-dropdown");
+  dropdownBtn.onclick = function() {
+    dropdownEle.classList.toggle("hidden");
+  }
+</script>
+    </div>
+    <div id="sidebar-wrapper">
+      <sidebar id="sidebar">
+  
+    <div class="widget-wrap">
+  <div class="info-card">
+    <div class="avatar">
+      
+      <div class="img-dim"></div>
+    </div>
+    <div class="info">
+      <div class="username">Your Name </div>
+      <div class="dot"></div>
+      <div class="subtitle">This is the subtitle </div>
+      <div class="link-list">
+        
+          <a class="link-btn" target="_blank" rel="noopener" href="https://twitter.com" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        
+          <a class="link-btn" target="_blank" rel="noopener" href="https://store.steampowered.com" title="Steam"><i class="fa-brands fa-steam"></i></a>
+        
+          <a class="link-btn" target="_blank" rel="noopener" href="https://github.com" title="GitHub"><i class="fa-brands fa-github"></i></a>
+         
+      </div>  
+    </div>
+  </div>
+</div>
 
-	<header class="header">
-		<nav class="header__nav">
-			
-				<a href="/" class="header__link">主页</a>
-			
-				<a target="_blank" rel="noopener" href="https://qm.qq.com/q/Sej7osxPGc" class="header__link">QQ</a>
-			
-				<a target="_blank" rel="noopener" href="https://github.com/YuHan0412/YuHan0412.github.io" class="header__link">Github</a>
-			
-		</nav>
-		<h1 class="header__title"><a href="/">Hexo</a></h1>
-		<h2 class="header__subtitle"></h2>
-	</header>
-
-	<main>
-		
+  
+  <div class="sticky">
+    
+      
 
 
 
-	<article>
-	
-		<h1><a href="/2025/10/04/Hello/">Hello!</a></h1>
-	
-	<div class="article__infos">
-		<span class="article__date">2025-10-04</span><br />
-		
-		
-	</div>
+    
+      
 
-	
+    
+  </div>
+</sidebar>
+    </div>
+    <div id="content-body">
+      
+   
 
-	
-		<p>Hi!<br>欢迎来到YuHan的网站</p>
 
-	
+<article id="post-Hello" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+   
+  <div class="article-inner">
+    <div class="article-main">
+      <header class="article-header">
+        
+<div class="main-title-bar">
+  <div class="main-title-dot"></div>
+  
+    
+      <h1 itemprop="name">
+        <a class="p-name article-title" href="/2025/10/04/Hello/">Hello!</a>
+      </h1>
+    
+  
+</div>
 
-	
+        <div class='meta-info-bar'>
+          <div class="meta-info">
+  <time class="dt-published" datetime="2025-10-04T06:42:42.000Z" itemprop="datePublished">2025-10-04</time>
+</div>
+          <div class="need-seperator meta-info">
+            <div class="meta-cate-flex">
+  
+    Uncategorized 
+   
+</div>
+  
+          </div>
+          <div class="wordcount need-seperator meta-info">
+            15 words 
+          </div>
+        </div>
+        
+      </header>
+      <div class="e-content article-entry" itemprop="articleBody">
+        
+          <div class="truncate-text">
+            
+              Hi!欢迎来到YuHan的网站
 
+            
+          </div>
+        
+      </div>
+
+         
+    </div>
+    
+     
+    <a class="right-panel  non-pic  "
+      
+      href="/2025/10/04/Hello/" 
+    >
+       
+      <i class="fa-solid fa-angle-right non-pic"></i>
+       
+    </a>
+     
+  </div>
+  
 </article>
 
 
 
 
-	<article>
-	
-		<h1><a href="/2025/09/17/zh_cn/">Chimes</a></h1>
-	
-	<div class="article__infos">
-		<span class="article__date">2025-09-17</span><br />
-		
-		
-	</div>
 
-	
 
-	
-		<p>以下是Chimes汉化<br>{</p>
-<pre><code>&quot;block.chimes.bamboo_chimes&quot;: &quot;竹制风铃&quot;,
+
+   
+
+
+<article id="post-zh_cn" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+   
+  <div class="article-inner">
+    <div class="article-main">
+      <header class="article-header">
+        
+<div class="main-title-bar">
+  <div class="main-title-dot"></div>
+  
+    
+      <h1 itemprop="name">
+        <a class="p-name article-title" href="/2025/09/17/zh_cn/">Chimes</a>
+      </h1>
+    
+  
+</div>
+
+        <div class='meta-info-bar'>
+          <div class="meta-info">
+  <time class="dt-published" datetime="2025-09-17T09:08:42.000Z" itemprop="datePublished">2025-09-17</time>
+</div>
+          <div class="need-seperator meta-info">
+            <div class="meta-cate-flex">
+  
+    Uncategorized 
+   
+</div>
+  
+          </div>
+          <div class="wordcount need-seperator meta-info">
+            3k words 
+          </div>
+        </div>
+        
+      </header>
+      <div class="e-content article-entry" itemprop="articleBody">
+        
+          <div class="truncate-text">
+            
+              以下是Chimes汉化{
+&quot;block.chimes.bamboo_chimes&quot;: &quot;竹制风铃&quot;,
 
 &quot;block.chimes.carved_bamboo_chimes&quot;: &quot;去皮竹制风铃&quot;,
 
@@ -87,276 +282,27 @@
 
 &quot;block.glass_wind_bell.orange.tag&quot;: &quot;橙色短册&quot;,
 
-&quot;block.glass_wind_bell.magenta.tag&quot;: &quot;品红色短册&quot;,
+&quot;block.glass_wind_bell.magenta.tag&quot;: &quot;品红...
+            
+          </div>
+        
+      </div>
 
-&quot;block.glass_wind_bell.yellow.tag&quot;: &quot;黄色短册&quot;,
-
-&quot;block.glass_wind_bell.lime.tag&quot;: &quot;黄绿色短册&quot;,
-
-&quot;block.glass_wind_bell.pink.tag&quot;: &quot;粉红色短册&quot;,
-
-&quot;block.glass_wind_bell.gray.tag&quot;: &quot;灰色短册&quot;,
-
-&quot;block.glass_wind_bell.light_gray.tag&quot;: &quot;淡灰色短册&quot;,
-
-&quot;block.glass_wind_bell.light_blue.tag&quot;: &quot;淡蓝色短册&quot;,
-
-&quot;block.glass_wind_bell.blue.tag&quot;: &quot;蓝色短册&quot;,
-
-&quot;block.glass_wind_bell.cyan.tag&quot;: &quot;青色短册&quot;,
-
-&quot;block.glass_wind_bell.purple.tag&quot;: &quot;紫色短册&quot;,
-
-&quot;block.glass_wind_bell.white.tag&quot;: &quot;白色短册&quot;,
-
-&quot;block.glass_wind_bell.brown.tag&quot;: &quot;棕色短册&quot;,
-
-&quot;block.glass_wind_bell.green.tag&quot;: &quot;绿色短册&quot;,
-
-&quot;block.glass_wind_bell.red.tag&quot;: &quot;红色短册&quot;,
-
-&quot;block.glass_wind_bell.black.tag&quot;: &quot;黑色短册&quot;,
-
-
-
-&quot;block.glass_wind_bell.orange.base&quot;: &quot;橙色铃托&quot;,
-
-&quot;block.glass_wind_bell.magenta.base&quot;: &quot;品红色铃托&quot;,
-
-&quot;block.glass_wind_bell.yellow.base&quot;: &quot;黄色铃托&quot;,
-
-&quot;block.glass_wind_bell.lime.base&quot;: &quot;黄绿色铃托&quot;,
-
-&quot;block.glass_wind_bell.pink.base&quot;: &quot;粉红色铃托&quot;,
-
-&quot;block.glass_wind_bell.gray.base&quot;: &quot;灰色铃托&quot;,
-
-&quot;block.glass_wind_bell.light_gray.base&quot;: &quot;淡灰色铃托&quot;,
-
-&quot;block.glass_wind_bell.light_blue.base&quot;: &quot;淡蓝色铃托&quot;,
-
-&quot;block.glass_wind_bell.blue.base&quot;: &quot;蓝色铃托&quot;,
-
-&quot;block.glass_wind_bell.cyan.base&quot;: &quot;青色铃托&quot;,
-
-&quot;block.glass_wind_bell.purple.base&quot;: &quot;紫色铃托&quot;,
-
-&quot;block.glass_wind_bell.white.base&quot;: &quot;白色铃托&quot;,
-
-&quot;block.glass_wind_bell.brown.base&quot;: &quot;棕色铃托&quot;,
-
-&quot;block.glass_wind_bell.green.base&quot;: &quot;绿色铃托&quot;,
-
-&quot;block.glass_wind_bell.red.base&quot;: &quot;红色铃托&quot;,
-
-&quot;block.glass_wind_bell.black.base&quot;: &quot;黑色铃托&quot;,
-
-
-
-
-&quot;chimes.configGui.title&quot;: &quot;风铃配置&quot;,
-
-&quot;chimes.configGui.animations.button&quot;: &quot;风铃&quot;,
-
-&quot;chimes.configGui.bamboo_leaf.button&quot;: &quot;竹制风铃落叶效果&quot;,
-
-&quot;chimes.configGui.options.animated&quot;: &quot;Animated&quot;,
-
-&quot;chimes.configGui.options.static&quot;: &quot;Static&quot;,
-
-&quot;chimes.configGui.options.on&quot;: &quot;开启&quot;,
-
-&quot;chimes.configGui.options.off&quot;: &quot;关闭&quot;,
-
-
-
-&quot;chimes.subtitles.wind_chime.chimes&quot;: &quot;风铃：铃响&quot;,
-
-&quot;chimes.subtitles.wind_chime.shimmers&quot;: &quot;风铃：叮铃&quot;,
-
-&quot;chimes.subtitles.wind_chime.tie&quot;: &quot;风铃：束起或松开&quot;
-</code></pre>
-<p>}</p>
-
-	
-
-	
-
-</article>
-
-
-
-
-	<article>
-	
-		<h1><a href="/2025/09/16/Noble/">Noble</a></h1>
-	
-	<div class="article__infos">
-		<span class="article__date">2025-09-16</span><br />
-		
-		
-	</div>
-
-	
-
-	
-		<p>以下是Noble v1.6汉化</p>
-<p>##################### MISC #####################</p>
-<p>profile.RENDER  &#x3D; §a§l渲染模式<br>profile.DEFAULT &#x3D; §a§l默认模式<br>profile.comment  &#x3D; §l默认模式§r 配置文件指默认设置的 Noble. §r§l渲染模式§r 配置文件通过增强部分设置, 使 Noble 转为渲染器. §c§l免责声明: 渲染模式可能会严重影响性能.</p>
-<p>option.RENDER_SCALE &#x3D; 渲染倍率<br>option.RENDER_SCALE.comment &#x3D; 调节 Noble 的全局渲染倍率. §c更高的数值会有更好的画面效果, 但会降低 §c性能.<br>suffix.RENDER_SCALE &#x3D; x</p>
-<p>##################### SCREENS #####################</p>
-<p>screen.LIGHTING          &#x3D; 照明<br>screen.AMBIENT_OCCLUSION &#x3D; 环境光遮蔽<br>screen.RAYTRACING        &#x3D; 路径追踪<br>screen.FILTER            &#x3D; 降噪器<br>screen.ATMOSPHERICS      &#x3D; 氛围<br>screen.ATMOSPHERE        &#x3D; 大气<br>screen.CLOUDS            &#x3D; 云层<br>screen.CLOUDS_LAYER0     &#x3D; 第一云层<br>screen.CLOUDS_LAYER1     &#x3D; 第二云层<br>screen.FOG               &#x3D; 大气雾<br>screen.STARS             &#x3D; 星星<br>screen.TERRAIN           &#x3D; 地表<br>screen.WATER             &#x3D; 水体<br>screen.WATER_ABSORPTION  &#x3D; 水体吸收<br>screen.WATER_SCATTERING  &#x3D; 水体散射<br>screen.POM               &#x3D; 视差 (POM)<br>screen.CAMERA            &#x3D; 镜头<br>screen.CAMERA_SETTINGS   &#x3D; 镜头设置<br>screen.ANTI_ALIASING     &#x3D; 抗锯齿<br>screen.COLOR_GRADING     &#x3D; 颜色分级<br>screen.POST_PROCESSING   &#x3D; 后期处理<br>screen.DEPTH_OF_FIELD    &#x3D; 景深<br>screen.DEBUG             &#x3D; 调试</p>
-<p>##################### LIGHTING #####################</p>
-<p>option.BLOCKLIGHT_TEMPERATURE &#x3D; 方块光色温<br>option.BLOCKLIGHT_TEMPERATURE.comment &#x3D; 调节方块光的色温 (单位: 开尔文(K)). 这会影响方块光的颜色.<br>suffix.BLOCKLIGHT_TEMPERATURE &#x3D; K</p>
-<p>option.EMISSIVE_INTENSITY &#x3D; 发光强度<br>option.EMISSIVE_INTENSITY.comment &#x3D; 调节方块光源发光强度 (单位: 流明(Lumens)).<br>suffix.EMISSIVE_INTENSITY &#x3D;  lumens</p>
-<p>option.DIRECTIONAL_LIGHTMAP &#x3D; 指向性光图<br>option.DIRECTIONAL_LIGHTMAP.comment &#x3D; 使得光源决定 Minecraft 光图的方向. §c可能会产生视觉错误.<br>value.DIRECTIONAL_LIGHTMAP.0 &#x3D; §c关<br>value.DIRECTIONAL_LIGHTMAP.1 &#x3D; §a开</p>
-<p>option.SUBSURFACE_SCATTERING &#x3D; 次表面散射<br>option.SUBSURFACE_SCATTERING.comment &#x3D; 模拟光线穿过某些材质表面的效果 (树叶, 皮肤,…). §c需要 PBR 资源包!<br>value.SUBSURFACE_SCATTERING.0 &#x3D; §c关<br>value.SUBSURFACE_SCATTERING.1 &#x3D; §a开</p>
-<p>option.MATERIAL_AO &#x3D; 材质环境光遮蔽<br>option.MATERIAL_AO.comment &#x3D; §b材质环境光遮蔽§r. 从纹理本身添加模拟阴影. §c需要 LabPBR 资源包!<br>value.MATERIAL_AO.0 &#x3D; §c关<br>value.MATERIAL_AO.1 &#x3D; §a开</p>
-<p>option.SPECULAR &#x3D; 高光<br>option.SPECULAR.comment &#x3D; 为方块添加光泽.<br>value.SPECULAR.0 &#x3D; §c关<br>value.SPECULAR.1 &#x3D; §a开</p>
-<p>option.SHADOWS &#x3D; 阴影<br>option.SHADOWS.comment &#x3D; 添加阴影.<br>value.SHADOWS.0 &#x3D; §c关<br>value.SHADOWS.1 &#x3D; §a开</p>
-<p>option.SHADOW_TYPE &#x3D; 阴影类型<br>option.SHADOW_TYPE.comment &#x3D; §a常规§r 阴影的边缘会模糊. §a软§r 阴影会在其距离投射方块越远时越模糊. §a硬§r 阴影会有非常锐利的边缘.<br>value.SHADOW_TYPE.0 &#x3D; §e正常<br>value.SHADOW_TYPE.1 &#x3D; §e软<br>value.SHADOW_TYPE.2 &#x3D; §e硬</p>
-<p>option.shadowDistance &#x3D; 阴影距离<br>option.shadowDistance.comment &#x3D; 调节 §b阴影§r 最大渲染距离.</p>
-<p>option.SHADOW_SAMPLES &#x3D; 阴影采样值<br>option.SHADOW_SAMPLES.comment &#x3D; 调节 §b阴影§r 质量. §c更高的分辨率会有质量更好的阴影, 但会降低 §c性能. §c不适用于硬阴影.<br>value.SHADOW_SAMPLES.1 &#x3D; §b1<br>value.SHADOW_SAMPLES.2 &#x3D; §b2<br>value.SHADOW_SAMPLES.3 &#x3D; §33<br>value.SHADOW_SAMPLES.4 &#x3D; §34<br>value.SHADOW_SAMPLES.5 &#x3D; §25<br>value.SHADOW_SAMPLES.6 &#x3D; §26<br>value.SHADOW_SAMPLES.7 &#x3D; §a7<br>value.SHADOW_SAMPLES.8 &#x3D; §a8<br>value.SHADOW_SAMPLES.9 &#x3D; §e9<br>value.SHADOW_SAMPLES.10 &#x3D; §e10<br>value.SHADOW_SAMPLES.11 &#x3D; §611<br>value.SHADOW_SAMPLES.12 &#x3D; §612<br>value.SHADOW_SAMPLES.13 &#x3D; §c13<br>value.SHADOW_SAMPLES.14 &#x3D; §c14<br>value.SHADOW_SAMPLES.15 &#x3D; §415<br>value.SHADOW_SAMPLES.16 &#x3D; §416</p>
-<p>option.shadowMapResolution &#x3D; 阴影分辨率<br>option.shadowMapResolution.comment &#x3D; 调节 §b阴影§r 分辨率. §c更高的分辨率会有更锐利的阴影, 但会降低 §c性能.<br>value.shadowMapResolution.512 &#x3D; §b512<br>value.shadowMapResolution.1024 &#x3D; §31024<br>value.shadowMapResolution.2048 &#x3D; §22048<br>value.shadowMapResolution.3072 &#x3D; §a3072<br>value.shadowMapResolution.4096 &#x3D; §e4096<br>value.shadowMapResolution.6144 &#x3D; §66144<br>value.shadowMapResolution.8192 &#x3D; §c8192<br>value.shadowMapResolution.10240 &#x3D; §410240<br>suffix.shadowMapResolution &#x3D; x</p>
-<p>##################### AMBIENT OCCLUSION #####################</p>
-<p>option.AO &#x3D; 环境光遮蔽 (AO)<br>option.AO.comment &#x3D; §b环境光遮蔽. §r增强场景深度感的模拟阴影功能.<br>value.AO.0 &#x3D; §c关<br>value.AO.1 &#x3D; §c开</p>
-<p>option.AO_FILTER &#x3D; AO 降噪器<br>option.AO_FILTER.comment &#x3D; 多帧累积 §b环境光遮蔽§r 来减少噪点以获取更干净的画面.<br>value.AO_FILTER.0 &#x3D; §c关<br>value.AO_FILTER.1 &#x3D; §c开</p>
-<p>option.AO_TYPE &#x3D; AO 类型<br>option.AO_TYPE.comment &#x3D; §aSSAO §7-&gt; §r屏幕空间环境光遮蔽. §aRTAO §7-&gt; §r路径追踪环境光遮蔽. §aGTAO §7-&gt; §rGround-Truth 环境光遮蔽.<br>value.AO_TYPE.0 &#x3D; §e§lSSAO<br>value.AO_TYPE.1 &#x3D; §e§lRTAO<br>value.AO_TYPE.2 &#x3D; §e§lGTAO</p>
-<p>option.AO_SCALE &#x3D; AO 渲染倍率<br>option.AO_SCALE.comment &#x3D; 调节 §bAO§r 的渲染倍率. §c更高的值会有更好的结果, 但会降低 §c性能.<br>suffix.AO_SCALE &#x3D; x<br>value.AO_SCALE.10 &#x3D; 0.10<br>value.AO_SCALE.15 &#x3D; 0.15<br>value.AO_SCALE.20 &#x3D; 0.20<br>value.AO_SCALE.25 &#x3D; 0.25<br>value.AO_SCALE.30 &#x3D; 0.30<br>value.AO_SCALE.35 &#x3D; 0.35<br>value.AO_SCALE.40 &#x3D; 0.40<br>value.AO_SCALE.45 &#x3D; 0.45<br>value.AO_SCALE.50 &#x3D; 0.50<br>value.AO_SCALE.55 &#x3D; 0.55<br>value.AO_SCALE.60 &#x3D; 0.60<br>value.AO_SCALE.65 &#x3D; 0.65<br>value.AO_SCALE.70 &#x3D; 0.70<br>value.AO_SCALE.75 &#x3D; 0.75<br>value.AO_SCALE.80 &#x3D; 0.80<br>value.AO_SCALE.85 &#x3D; 0.85<br>value.AO_SCALE.90 &#x3D; 0.90<br>value.AO_SCALE.95 &#x3D; 0.95<br>value.AO_SCALE.100 &#x3D; 1.00</p>
-<p>option.SSAO_SAMPLES &#x3D; SSAO 采样值<br>option.SSAO_SAMPLES.comment &#x3D; 影响 §bSSAO§r 的质量. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.SSAO_SAMPLES.4 &#x3D; §24<br>value.SSAO_SAMPLES.8 &#x3D; §a8<br>value.SSAO_SAMPLES.12 &#x3D; §e12<br>value.SSAO_SAMPLES.16 &#x3D; §616<br>value.SSAO_SAMPLES.20 &#x3D; §c20</p>
-<p>option.SSAO_RADIUS &#x3D; SSAO 半径<br>option.SSAO_RADIUS.comment &#x3D; 调节 §bSSAO§r 的半径.</p>
-<p>option.RTAO_SAMPLES &#x3D; RTAO 采样值<br>option.RTAO_SAMPLES.comment &#x3D; 影响 §bRTAO§r 的质量. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.RTAO_SAMPLES.2 &#x3D; §22<br>value.RTAO_SAMPLES.4 &#x3D; §a4<br>value.RTAO_SAMPLES.6 &#x3D; §e6<br>value.RTAO_SAMPLES.8 &#x3D; §68<br>value.RTAO_SAMPLES.10 &#x3D; §c10</p>
-<p>option.RTAO_STEPS &#x3D; RTAO 步数<br>option.RTAO_STEPS.comment &#x3D; 影响 §bRTAO§r 的精确度. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.RTAO_STEPS.16 &#x3D; §216<br>value.RTAO_STEPS.24 &#x3D; §a24<br>value.RTAO_STEPS.32 &#x3D; §e32<br>value.RTAO_STEPS.40 &#x3D; §640<br>value.RTAO_STEPS.64 &#x3D; §c64</p>
-<p>option.GTAO_SLICES &#x3D; GTAO 切片数<br>option.GTAO_SLICES.comment &#x3D; 影响 §bGTAO§r 的精确度. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.GTAO_SLICES.1 &#x3D; §21<br>value.GTAO_SLICES.2 &#x3D; §a2<br>value.GTAO_SLICES.3 &#x3D; §e3<br>value.GTAO_SLICES.4 &#x3D; §64<br>value.GTAO_SLICES.5 &#x3D; §c5<br>value.GTAO_SLICES.6 &#x3D; §46</p>
-<p>option.GTAO_RADIUS &#x3D; GTAO 半径<br>option.GTAO_RADIUS.comment &#x3D; 调节 §bGTAO§r 的半径.</p>
-<p>##################### RAY TRACING #####################</p>
-<h3 id="REFLECTIONS-REFRACTIONS"><a href="#REFLECTIONS-REFRACTIONS" class="headerlink" title="REFLECTIONS &amp; REFRACTIONS"></a>REFLECTIONS &amp; REFRACTIONS</h3><p>option.REFLECTIONS &#x3D; 反射<br>option.REFLECTIONS.comment &#x3D; §r 只能反射显示 §c在屏幕上§r 的内容.<br>value.REFLECTIONS.0 &#x3D; §c关<br>value.REFLECTIONS.1 &#x3D; §c开</p>
-<p>option.REFRACTIONS &#x3D; 折射<br>option.REFRACTIONS.comment &#x3D; 应用 §b折射§r 效果到可以产生折射的方块材质上 (玻璃, 水体, 冰,…). §r 只能折射显示 §c在屏幕上§r 的内容.<br>value.REFRACTIONS.0 &#x3D; §c关<br>value.REFRACTIONS.1 &#x3D; §c开</p>
-<p>option.REFLECTIONS_TYPE &#x3D; 反射类型<br>option.REFLECTIONS_TYPE.comment &#x3D; §b平滑反射§r 不考虑材质的粗糙度. §b粗糙反射§r 考虑材质的粗糙度, §c 可提供更好的结果但降低性能.<br>value.REFLECTIONS_TYPE.0 &#x3D; §e平滑反射<br>value.REFLECTIONS_TYPE.1 &#x3D; §e粗糙反射</p>
-<p>option.REFLECTIONS_SCALE &#x3D; 反射渲染倍率<br>option.REFLECTIONS_SCALE.comment &#x3D; 调节 §b反射§r 的渲染倍率. §c更高的值会有更好的结果, 但会降低 §c性能.<br>suffix.REFLECTIONS_SCALE &#x3D; x<br>value.REFLECTIONS_SCALE.10 &#x3D; 0.10<br>value.REFLECTIONS_SCALE.15 &#x3D; 0.15<br>value.REFLECTIONS_SCALE.20 &#x3D; 0.20<br>value.REFLECTIONS_SCALE.25 &#x3D; 0.25<br>value.REFLECTIONS_SCALE.30 &#x3D; 0.30<br>value.REFLECTIONS_SCALE.35 &#x3D; 0.35<br>value.REFLECTIONS_SCALE.40 &#x3D; 0.40<br>value.REFLECTIONS_SCALE.45 &#x3D; 0.45<br>value.REFLECTIONS_SCALE.50 &#x3D; 0.50<br>value.REFLECTIONS_SCALE.55 &#x3D; 0.55<br>value.REFLECTIONS_SCALE.60 &#x3D; 0.60<br>value.REFLECTIONS_SCALE.65 &#x3D; 0.65<br>value.REFLECTIONS_SCALE.70 &#x3D; 0.70<br>value.REFLECTIONS_SCALE.75 &#x3D; 0.75<br>value.REFLECTIONS_SCALE.80 &#x3D; 0.80<br>value.REFLECTIONS_SCALE.85 &#x3D; 0.85<br>value.REFLECTIONS_SCALE.90 &#x3D; 0.90<br>value.REFLECTIONS_SCALE.95 &#x3D; 0.95<br>value.REFLECTIONS_SCALE.100 &#x3D; 1.00</p>
-<h3 id="GLOBAL-ILLUMINATION"><a href="#GLOBAL-ILLUMINATION" class="headerlink" title="GLOBAL ILLUMINATION"></a>GLOBAL ILLUMINATION</h3><p>option.GI &#x3D; 全局照明 (GI)<br>option.GI.comment &#x3D; 模拟光线反弹, §7§l§o例如: 一堵 §7§l§o绿墙 的颜色会经光线投射到它附近的物体上. §r 只能从显示 §c在屏幕上§r 上的内容进行采样.<br>value.GI.0 &#x3D; §c关<br>value.GI.1 &#x3D; §c开</p>
-<p>option.ATROUS_FILTER &#x3D;  À-Trous 过滤<br>option.ATROUS_FILTER.comment &#x3D; 通过保留细节的同时模糊图像的方法来对 §b全局照明§r 降噪.<br>value.ATROUS_FILTER.0 &#x3D; §c关<br>value.ATROUS_FILTER.1 &#x3D; §c开</p>
-<p>option.TEMPORAL_ACCUMULATION &#x3D; 时间累积<br>option.TEMPORAL_ACCUMULATION.comment &#x3D; 多帧累积 §b全局照明§r 来减少噪点以获取更干净的画面.<br>value.TEMPORAL_ACCUMULATION.0 &#x3D; §c关<br>value.TEMPORAL_ACCUMULATION.1 &#x3D; §c开</p>
-<p>option.ATROUS_STEP_SIZE &#x3D; 模糊强度<br>option.ATROUS_STEP_SIZE.comment &#x3D; 调节用于 À-Trous 过滤过程的模糊强度.</p>
-<p>option.NORMAL_WEIGHT_SIGMA &#x3D; 法线权重强度<br>option.NORMAL_WEIGHT_SIGMA.comment &#x3D; 调节用于 À-Trous 过滤过程中法线权重的强度.</p>
-<p>option.DEPTH_WEIGHT_SIGMA &#x3D; 深度权重强度<br>option.DEPTH_WEIGHT_SIGMA.comment &#x3D; 调节用于 À-Trous 过滤过程中深度权重的强度.</p>
-<p>option.LUMINANCE_WEIGHT_SIGMA &#x3D; 亮度权重强度<br>option.LUMINANCE_WEIGHT_SIGMA.comment &#x3D; 调节 用于À-Trous 过滤过程中亮度权重的强度.</p>
-<p>option.SKY_CONTRIBUTION &#x3D; 天空贡献率<br>option.SKY_CONTRIBUTION.comment &#x3D; 天空光对 §b全局照明§r 的贡献 (在屏幕空间中可能会出问题). 使天空光参与间接照明计算.<br>value.SKY_CONTRIBUTION.0 &#x3D; §c关<br>value.SKY_CONTRIBUTION.1 &#x3D; §c开</p>
-<p>option.GI_SCALE &#x3D; GI 渲染倍率<br>option.GI_SCALE.comment &#x3D; 调节 §b全局照明§r 的渲染倍率. §c更高的值会有更好的结果, 但会降低 §c性能.<br>suffix.GI_SCALE &#x3D; x<br>value.GI_SCALE.10 &#x3D; 0.10<br>value.GI_SCALE.15 &#x3D; 0.15<br>value.GI_SCALE.20 &#x3D; 0.20<br>value.GI_SCALE.25 &#x3D; 0.25<br>value.GI_SCALE.30 &#x3D; 0.30<br>value.GI_SCALE.35 &#x3D; 0.35<br>value.GI_SCALE.40 &#x3D; 0.40<br>value.GI_SCALE.45 &#x3D; 0.45<br>value.GI_SCALE.50 &#x3D; 0.50<br>value.GI_SCALE.55 &#x3D; 0.55<br>value.GI_SCALE.60 &#x3D; 0.60<br>value.GI_SCALE.65 &#x3D; 0.65<br>value.GI_SCALE.70 &#x3D; 0.70<br>value.GI_SCALE.75 &#x3D; 0.75<br>value.GI_SCALE.80 &#x3D; 0.80<br>value.GI_SCALE.85 &#x3D; 0.85<br>value.GI_SCALE.90 &#x3D; 0.90<br>value.GI_SCALE.95 &#x3D; 0.95<br>value.GI_SCALE.100 &#x3D; 1.00</p>
-<p>option.GI_SAMPLES &#x3D; GI 采样值<br>option.GI_SAMPLES.comment &#x3D; 调节计算 §b全局照明§r 所需的采样值. §c更高的值会有更好的结果, 但会降低 §c性能.</p>
-<p>option.MAX_GI_BOUNCES &#x3D; GI 反弹次数<br>option.MAX_GI_BOUNCES.comment &#x3D; 使 §b全局照明§r 计算中的光线反弹 §aX§r 次来进行采集. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.MAX_GI_BOUNCES.9999 &#x3D; §c无限</p>
-<h3 id="RAY-TRACING"><a href="#RAY-TRACING" class="headerlink" title="RAY TRACING"></a>RAY TRACING</h3><p>option.BINARY_REFINEMENT &#x3D; 二值细化<br>option.BINARY_REFINEMENT.comment &#x3D; 调节光线追踪命中位置来使其更精确. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.BINARY_REFINEMENT.0 &#x3D; §c关<br>value.BINARY_REFINEMENT.1 &#x3D; §c开</p>
-<p>option.SSR_REPROJECTION &#x3D; 重投影屏幕空间反射<br>option.SSR_REPROJECTION.comment &#x3D; 反射最后帧来使光线无限反弹. §a不影响性能.<br>value.SSR_REPROJECTION.0 &#x3D; §c关<br>value.SSR_REPROJECTION.1 &#x3D; §c开</p>
-<p>##################### ATMOSPHERICS #####################</p>
-<p>option.sunPathRotation &#x3D; 天体倾角<br>option.sunPathRotation.comment &#x3D; 调节 日&#x2F;月 运行轨迹的倾角大小.<br>suffix.sunPathRotation &#x3D; °</p>
-<p>option.CELESTIAL_SIZE_MULTIPLIER &#x3D; 天体尺寸倍率<br>option.CELESTIAL_SIZE_MULTIPLIER.comment &#x3D; 调节 日&#x2F;月 大小.<br>suffix.CELESTIAL_SIZE_MULTIPLIER &#x3D; x</p>
-<h3 id="ATMOSPHERE"><a href="#ATMOSPHERE" class="headerlink" title="ATMOSPHERE"></a>ATMOSPHERE</h3><p>option.ATMOSPHERE_SCALE &#x3D; 大气渲染倍率<br>option.ATMOSPHERE_SCALE.comment &#x3D; 调节 §b大气§r 的渲染倍率. §c更高的值会有更好的结果, 但会降低 §c性能.<br>suffix.ATMOSPHERE_SCALE &#x3D; x<br>value.ATMOSPHERE_SCALE.10 &#x3D; 0.10<br>value.ATMOSPHERE_SCALE.15 &#x3D; 0.15<br>value.ATMOSPHERE_SCALE.20 &#x3D; 0.20<br>value.ATMOSPHERE_SCALE.25 &#x3D; 0.25<br>value.ATMOSPHERE_SCALE.30 &#x3D; 0.30<br>value.ATMOSPHERE_SCALE.35 &#x3D; 0.35<br>value.ATMOSPHERE_SCALE.40 &#x3D; 0.40<br>value.ATMOSPHERE_SCALE.45 &#x3D; 0.45<br>value.ATMOSPHERE_SCALE.50 &#x3D; 0.50<br>value.ATMOSPHERE_SCALE.55 &#x3D; 0.55<br>value.ATMOSPHERE_SCALE.60 &#x3D; 0.60<br>value.ATMOSPHERE_SCALE.65 &#x3D; 0.65<br>value.ATMOSPHERE_SCALE.70 &#x3D; 0.70<br>value.ATMOSPHERE_SCALE.75 &#x3D; 0.75<br>value.ATMOSPHERE_SCALE.80 &#x3D; 0.80<br>value.ATMOSPHERE_SCALE.85 &#x3D; 0.85<br>value.ATMOSPHERE_SCALE.90 &#x3D; 0.90<br>value.ATMOSPHERE_SCALE.95 &#x3D; 0.95<br>value.ATMOSPHERE_SCALE.100 &#x3D; 1.00</p>
-<p>option.ATMOSPHERE_SCATTERING_STEPS &#x3D; 大气散射采样值<br>option.ATMOSPHERE_SCATTERING_STEPS.comment &#x3D; 影响光线在大气散射中的精确度. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.ATMOSPHERE_SCATTERING_STEPS.8  &#x3D; §38<br>value.ATMOSPHERE_SCATTERING_STEPS.12 &#x3D; §212<br>value.ATMOSPHERE_SCATTERING_STEPS.16 &#x3D; §a16<br>value.ATMOSPHERE_SCATTERING_STEPS.20 &#x3D; §e20<br>value.ATMOSPHERE_SCATTERING_STEPS.24 &#x3D; §624<br>value.ATMOSPHERE_SCATTERING_STEPS.28 &#x3D; §c28<br>value.ATMOSPHERE_SCATTERING_STEPS.32 &#x3D; §432</p>
-<p>option.ATMOSPHERE_TRANSMITTANCE_STEPS &#x3D; 大气透射率采样值<br>option.ATMOSPHERE_TRANSMITTANCE_STEPS.comment &#x3D; 影响光线在大气传播时的精确度. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.ATMOSPHERE_TRANSMITTANCE_STEPS.8  &#x3D; §38<br>value.ATMOSPHERE_TRANSMITTANCE_STEPS.12 &#x3D; §212<br>value.ATMOSPHERE_TRANSMITTANCE_STEPS.16 &#x3D; §a16<br>value.ATMOSPHERE_TRANSMITTANCE_STEPS.20 &#x3D; §e20<br>value.ATMOSPHERE_TRANSMITTANCE_STEPS.24 &#x3D; §624<br>value.ATMOSPHERE_TRANSMITTANCE_STEPS.28 &#x3D; §c28<br>value.ATMOSPHERE_TRANSMITTANCE_STEPS.32 &#x3D; §432</p>
-<h3 id="CLOUDS"><a href="#CLOUDS" class="headerlink" title="CLOUDS"></a>CLOUDS</h3><p>option.CLOUDS_SCALE &#x3D; 云层渲染倍率<br>option.CLOUDS_SCALE.comment &#x3D; 调节 §b云层§r 的渲染倍率. §c更高的值会有更好的结果, 但会降低 §c性能.<br>suffix.CLOUDS_SCALE &#x3D; x<br>value.CLOUDS_SCALE.10 &#x3D; 0.10<br>value.CLOUDS_SCALE.15 &#x3D; 0.15<br>value.CLOUDS_SCALE.20 &#x3D; 0.20<br>value.CLOUDS_SCALE.25 &#x3D; 0.25<br>value.CLOUDS_SCALE.30 &#x3D; 0.30<br>value.CLOUDS_SCALE.35 &#x3D; 0.35<br>value.CLOUDS_SCALE.40 &#x3D; 0.40<br>value.CLOUDS_SCALE.45 &#x3D; 0.45<br>value.CLOUDS_SCALE.50 &#x3D; 0.50<br>value.CLOUDS_SCALE.55 &#x3D; 0.55<br>value.CLOUDS_SCALE.60 &#x3D; 0.60<br>value.CLOUDS_SCALE.65 &#x3D; 0.65<br>value.CLOUDS_SCALE.70 &#x3D; 0.70<br>value.CLOUDS_SCALE.75 &#x3D; 0.75<br>value.CLOUDS_SCALE.80 &#x3D; 0.80<br>value.CLOUDS_SCALE.85 &#x3D; 0.85<br>value.CLOUDS_SCALE.90 &#x3D; 0.90<br>value.CLOUDS_SCALE.95 &#x3D; 0.95<br>value.CLOUDS_SCALE.100 &#x3D; 1.00</p>
-<p>option.CLOUDS_WIND_SPEED &#x3D; 风速<br>option.CLOUDS_WIND_SPEED.comment &#x3D; 调节影响云层移动的风速大小.<br>suffix.CLOUDS_WIND_SPEED &#x3D; km&#x2F;h</p>
-<p>option.CLOUDS_SHADOWS &#x3D; 云影<br>option.CLOUDS_SHADOWS.comment &#x3D; 使主要云层可以向地面投射阴影.<br>value.CLOUDS_SHADOWS.0 &#x3D; §c关<br>value.CLOUDS_SHADOWS.1 &#x3D; §c开</p>
-<p>option.CLOUDS_SHADOWS_RESOLUTION &#x3D; 云影分辨率<br>option.CLOUDS_SHADOWS_RESOLUTION.comment &#x3D; 调节 §b云影§r 分辨率.<br>suffix.CLOUDS_SHADOWS_RESOLUTION &#x3D; x</p>
-<h3 id="CLOUDS-LAYER-0"><a href="#CLOUDS-LAYER-0" class="headerlink" title="CLOUDS LAYER 0"></a>CLOUDS LAYER 0</h3><p>option.CLOUDS_LAYER0_ENABLED  &#x3D; 第一云层<br>value.CLOUDS_LAYER0_ENABLED.0 &#x3D; §c关<br>value.CLOUDS_LAYER0_ENABLED.1 &#x3D; §c开</p>
-<p>option.CLOUDS_LAYER0_SCATTERING_STEPS &#x3D; 散射采样值<br>option.CLOUDS_LAYER0_SCATTERING_STEPS.comment &#x3D; 影响光线在云层内散射的精确度. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.CLOUDS_LAYER0_SCATTERING_STEPS.4  &#x3D; §b4<br>value.CLOUDS_LAYER0_SCATTERING_STEPS.8  &#x3D; §38<br>value.CLOUDS_LAYER0_SCATTERING_STEPS.12 &#x3D; §212<br>value.CLOUDS_LAYER0_SCATTERING_STEPS.16 &#x3D; §a16<br>value.CLOUDS_LAYER0_SCATTERING_STEPS.20 &#x3D; §e20<br>value.CLOUDS_LAYER0_SCATTERING_STEPS.24 &#x3D; §624<br>value.CLOUDS_LAYER0_SCATTERING_STEPS.28 &#x3D; §c28<br>value.CLOUDS_LAYER0_SCATTERING_STEPS.32 &#x3D; §432</p>
-<p>option.CLOUDS_LAYER0_OCTAVES &#x3D; 形状噪声层数<br>option.CLOUDS_LAYER0_OCTAVES.comment &#x3D; 云层塑形所需的噪声层数. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.CLOUDS_LAYER0_OCTAVES.1 &#x3D; §21<br>value.CLOUDS_LAYER0_OCTAVES.2 &#x3D; §a2<br>value.CLOUDS_LAYER0_OCTAVES.3 &#x3D; §e3<br>value.CLOUDS_LAYER0_OCTAVES.4 &#x3D; §64<br>value.CLOUDS_LAYER0_OCTAVES.5 &#x3D; §c5<br>value.CLOUDS_LAYER0_OCTAVES.6 &#x3D; §46</p>
-<p>option.CLOUDS_LAYER0_SCALE &#x3D; 形状大小<br>option.CLOUDS_LAYER0_SCALE.comment &#x3D; 调节云层形状大小.<br>suffix.CLOUDS_LAYER0_SCALE &#x3D; %</p>
-<p>option.CLOUDS_LAYER0_DETAILSCALE &#x3D; 细节水平<br>option.CLOUDS_LAYER0_DETAILSCALE.comment &#x3D; 调节云层细节倍率.<br>suffix.CLOUDS_LAYER0_DETAILSCALE &#x3D; %</p>
-<p>option.CLOUDS_LAYER0_FREQUENCY &#x3D; 形状频率<br>option.CLOUDS_LAYER0_FREQUENCY.comment &#x3D; 调节云层形状频率.<br>suffix.CLOUDS_LAYER0_FREQUENCY &#x3D; x</p>
-<p>option.CLOUDS_LAYER0_DENSITY &#x3D; 密度<br>option.CLOUDS_LAYER0_DENSITY.comment &#x3D; 调节云层密度.<br>suffix.CLOUDS_LAYER0_DENSITY &#x3D; %</p>
-<p>option.CLOUDS_LAYER0_ALTITUDE &#x3D; 高度<br>option.CLOUDS_LAYER0_ALTITUDE.comment &#x3D; 调节云层高度.<br>suffix.CLOUDS_LAYER0_ALTITUDE &#x3D; m</p>
-<p>option.CLOUDS_LAYER0_THICKNESS &#x3D; 厚度<br>option.CLOUDS_LAYER0_THICKNESS.comment &#x3D; 调节云层厚度.<br>suffix.CLOUDS_LAYER0_THICKNESS &#x3D; m</p>
-<p>option.CLOUDS_LAYER0_COVERAGE &#x3D; 覆盖率<br>option.CLOUDS_LAYER0_COVERAGE.comment &#x3D; 调节云层覆盖率.<br>suffix.CLOUDS_LAYER0_COVERAGE &#x3D; %</p>
-<p>option.CLOUDS_LAYER0_SWIRL &#x3D; 漩涡率<br>option.CLOUDS_LAYER0_SWIRL.comment &#x3D; 调节云层漩涡率.<br>suffix.CLOUDS_LAYER0_SWIRL &#x3D; %</p>
-<h3 id="CLOUDS-LAYER-1"><a href="#CLOUDS-LAYER-1" class="headerlink" title="CLOUDS LAYER 1"></a>CLOUDS LAYER 1</h3><p>option.CLOUDS_LAYER1_ENABLED  &#x3D; 第二云层<br>value.CLOUDS_LAYER1_ENABLED.0 &#x3D; §c关<br>value.CLOUDS_LAYER1_ENABLED.1 &#x3D; §c开</p>
-<p>option.CLOUDS_LAYER1_SCATTERING_STEPS &#x3D; 散射采样值<br>option.CLOUDS_LAYER1_SCATTERING_STEPS.comment &#x3D; 影响光线在云层内散射的精确度. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.CLOUDS_LAYER1_SCATTERING_STEPS.4  &#x3D; §b4<br>value.CLOUDS_LAYER1_SCATTERING_STEPS.8  &#x3D; §38<br>value.CLOUDS_LAYER1_SCATTERING_STEPS.12 &#x3D; §212<br>value.CLOUDS_LAYER1_SCATTERING_STEPS.16 &#x3D; §a16<br>value.CLOUDS_LAYER1_SCATTERING_STEPS.20 &#x3D; §e20<br>value.CLOUDS_LAYER1_SCATTERING_STEPS.24 &#x3D; §624<br>value.CLOUDS_LAYER1_SCATTERING_STEPS.28 &#x3D; §c28<br>value.CLOUDS_LAYER1_SCATTERING_STEPS.32 &#x3D; §432</p>
-<p>option.CLOUDS_LAYER1_OCTAVES &#x3D; 形状噪声层数<br>option.CLOUDS_LAYER1_OCTAVES.comment &#x3D; 云层塑形所需的噪声层数. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.CLOUDS_LAYER1_OCTAVES.1 &#x3D; §21<br>value.CLOUDS_LAYER1_OCTAVES.2 &#x3D; §a2<br>value.CLOUDS_LAYER1_OCTAVES.3 &#x3D; §e3<br>value.CLOUDS_LAYER1_OCTAVES.4 &#x3D; §64<br>value.CLOUDS_LAYER1_OCTAVES.5 &#x3D; §c5<br>value.CLOUDS_LAYER1_OCTAVES.6 &#x3D; §46</p>
-<p>option.CLOUDS_LAYER1_SCALE &#x3D; 形状大小<br>option.CLOUDS_LAYER1_SCALE.comment &#x3D; 调节云层形状大小.<br>suffix.CLOUDS_LAYER1_SCALE &#x3D; %</p>
-<p>option.CLOUDS_LAYER1_DETAILSCALE &#x3D; 细节水平<br>option.CLOUDS_LAYER1_DETAILSCALE.comment &#x3D; 调节云层细节倍率.<br>suffix.CLOUDS_LAYER1_DETAILSCALE &#x3D; %</p>
-<p>option.CLOUDS_LAYER1_FREQUENCY &#x3D; 形状频率<br>option.CLOUDS_LAYER1_FREQUENCY.comment &#x3D; 调节云层形状频率.<br>suffix.CLOUDS_LAYER1_FREQUENCY &#x3D; x</p>
-<p>option.CLOUDS_LAYER1_DENSITY &#x3D; 密度<br>option.CLOUDS_LAYER1_DENSITY.comment &#x3D; 调节云层密度.<br>suffix.CLOUDS_LAYER1_DENSITY &#x3D; %</p>
-<p>option.CLOUDS_LAYER1_ALTITUDE &#x3D; 高度<br>option.CLOUDS_LAYER1_ALTITUDE.comment &#x3D; 调节云层高度.<br>suffix.CLOUDS_LAYER1_ALTITUDE &#x3D; m</p>
-<p>option.CLOUDS_LAYER1_THICKNESS &#x3D; 厚度<br>option.CLOUDS_LAYER1_THICKNESS.comment &#x3D; 调节云层厚度.<br>suffix.CLOUDS_LAYER1_THICKNESS &#x3D; m</p>
-<p>option.CLOUDS_LAYER1_COVERAGE &#x3D; 覆盖率<br>option.CLOUDS_LAYER1_COVERAGE.comment &#x3D; 调节云层覆盖率.<br>suffix.CLOUDS_LAYER1_COVERAGE &#x3D; %</p>
-<p>option.CLOUDS_LAYER1_SWIRL &#x3D; 漩涡率<br>option.CLOUDS_LAYER1_SWIRL.comment &#x3D; 调节云层漩涡率.<br>suffix.CLOUDS_LAYER1_SWIRL &#x3D; %</p>
-<h3 id="FOG"><a href="#FOG" class="headerlink" title="FOG"></a>FOG</h3><p>option.AIR_FOG &#x3D; 大气雾<br>option.AIR_FOG.comment &#x3D; 模拟光在密集粒子中的散射. §a近似§r: 雾气的一种半精确计算方法. §a体积§r: 使用光线步进和更复杂的计算来得到更精确的雾气.<br>value.AIR_FOG.0 &#x3D; §c关<br>value.AIR_FOG.1 &#x3D; §e§l体积 (VF)<br>value.AIR_FOG.2 &#x3D; §e§l近似</p>
-<p>option.AIR_FOG_SCATTERING_STEPS &#x3D; VF 散射采样值<br>option.AIR_FOG_SCATTERING_STEPS.comment &#x3D; 影响 §b体积雾§r 的散射精确度. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.AIR_FOG_SCATTERING_STEPS.8  &#x3D; §38<br>value.AIR_FOG_SCATTERING_STEPS.16 &#x3D; §216<br>value.AIR_FOG_SCATTERING_STEPS.24 &#x3D; §a24<br>value.AIR_FOG_SCATTERING_STEPS.32 &#x3D; §e32<br>value.AIR_FOG_SCATTERING_STEPS.40 &#x3D; §640<br>value.AIR_FOG_SCATTERING_STEPS.48 &#x3D; §c48<br>value.AIR_FOG_SCATTERING_STEPS.64 &#x3D; §464</p>
-<p>option.FOG_ALTITUDE &#x3D; 高度<br>option.FOG_ALTITUDE.comment &#x3D; 调节雾气高度.</p>
-<p>option.FOG_THICKNESS &#x3D; 厚度<br>option.FOG_THICKNESS.comment &#x3D; 调节雾气厚度.</p>
-<p>option.FOG_DENSITY &#x3D; 密度<br>option.FOG_DENSITY.comment &#x3D; 调节雾气密度.</p>
-<h3 id="STARS"><a href="#STARS" class="headerlink" title="STARS"></a>STARS</h3><p>option.STARS_AMOUNT &#x3D; 星星数量<br>option.STARS_AMOUNT.comment &#x3D; 调节天空中星星的数量.<br>suffix.STARS_AMOUNT &#x3D; %</p>
-<p>option.STARS_LUMINOSITY &#x3D; 星星亮度<br>option.STARS_LUMINOSITY.comment &#x3D; 调节天空中星星的亮度.</p>
-<p>##################### TERRAIN #####################</p>
-<h3 id="WATER"><a href="#WATER" class="headerlink" title="WATER"></a>WATER</h3><p>option.WATER_CAUSTICS &#x3D; 焦散线<br>option.WATER_CAUSTICS.comment &#x3D; 光在水体折射产生的焦散现象. 会投射在水下.<br>value.WATER_CAUSTICS.0 &#x3D; §c关<br>value.WATER_CAUSTICS.1 &#x3D; §c开</p>
-<p>option.WATER_CAUSTICS_STRENGTH &#x3D; 焦散线强度<br>option.WATER_CAUSTICS_STRENGTH.comment &#x3D; 调节 §b水体焦散§r 的强度.</p>
-<p>option.WATER_OCTAVES &#x3D; 水波噪声层数<br>option.WATER_OCTAVES.comment &#x3D; 影响 §b水面水波§r 的细节. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.WATER_OCTAVES.2 &#x3D; §32<br>value.WATER_OCTAVES.4 &#x3D; §24<br>value.WATER_OCTAVES.6 &#x3D; §a6<br>value.WATER_OCTAVES.8 &#x3D; §e8<br>value.WATER_OCTAVES.16 &#x3D; §616<br>value.WATER_OCTAVES.32 &#x3D; §c32<br>value.WATER_OCTAVES.48 &#x3D; §448</p>
-<p>option.WAVE_STEEPNESS &#x3D; 水波斜度<br>option.WAVE_STEEPNESS.comment &#x3D; 调节水波斜度. 即宽高比.</p>
-<p>option.WAVE_AMPLITUDE &#x3D; 水波振幅<br>option.WAVE_AMPLITUDE.comment &#x3D; 调节水波振幅.</p>
-<p>option.WAVE_LENGTH &#x3D; 水波波长<br>option.WAVE_LENGTH.comment &#x3D; 调节水波的长度 (单位: 米).<br>suffix.WAVE_LENGTH &#x3D; m</p>
-<p>option.WATER_FOG &#x3D; 水雾<br>option.WATER_FOG.comment &#x3D; 模拟光在水中的吸收和散射. §a近似§r: 水雾的一种半精确计算方法. §a体积§r: 使用光线步进和更复杂的计算来得到更精确的水雾.<br>value.WATER_FOG.0 &#x3D; §e§l近似<br>value.WATER_FOG.1 &#x3D; §e§l体积</p>
-<p>option.WATER_FOG_STEPS &#x3D; 体积水雾步数<br>option.WATER_FOG_STEPS.comment &#x3D; 影响 §b水雾§r 的精确度. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.WATER_FOG_STEPS.4 &#x3D; §24<br>value.WATER_FOG_STEPS.8 &#x3D; §a8<br>value.WATER_FOG_STEPS.16 &#x3D; §e16<br>value.WATER_FOG_STEPS.32 &#x3D; §632</p>
-<p>option.WATER_ABSORPTION_R &#x3D; 水体吸收 - §c红色<br>option.WATER_ABSORPTION_R.comment &#x3D; 调节水体如何吸收光线. 更高的数值意味着 §c红色§r 会被水体吸收更多.</p>
-<p>option.WATER_ABSORPTION_G &#x3D; 水体吸收 - §a绿色<br>option.WATER_ABSORPTION_G.comment &#x3D; 调节水体如何吸收光线. 更高的数值意味着 §a绿色§r 会被水体吸收更多.</p>
-<p>option.WATER_ABSORPTION_B &#x3D; 水体吸收 - §9蓝色<br>option.WATER_ABSORPTION_B.comment &#x3D; 调节水体如何吸收光线. 更高的数值意味着 §9蓝色§r 会被水体吸收更多.</p>
-<p>option.WATER_SCATTERING_R &#x3D; 水体散射 - §c红色<br>option.WATER_SCATTERING_R.comment &#x3D; 调节水体如何散射光线. 更高的数值意味着 §c红色§r 会更容易被散射.</p>
-<p>option.WATER_SCATTERING_G &#x3D; 水体散射 - §a绿色<br>option.WATER_SCATTERING_G.comment &#x3D; 调节水体如何散射光线. 更高的数值意味着 §a绿色§r 会更容易被散射.</p>
-<p>option.WATER_SCATTERING_B &#x3D; 水体散射 - §9蓝色<br>option.WATER_SCATTERING_B.comment &#x3D; 调节水体如何散射光线. 更高的数值意味着 §9蓝色§r 会更容易被散射.</p>
-<h3 id="POM"><a href="#POM" class="headerlink" title="POM"></a>POM</h3><p>option.POM &#x3D; 视差 (POM)<br>option.POM.comment &#x3D; §b视差遮蔽映射. §r从材质高度图获取 3D 定义信息来赋予材质深度. §a陡峭§r: 像素化的 POM . §a平滑§r: 对高度图进行过滤以获取去像素化的 POM .<br>value.POM.0 &#x3D; §c关<br>value.POM.1 &#x3D; §e§l陡峭<br>value.POM.2 &#x3D; §e§l平滑</p>
-<p>option.POM_LAYERS &#x3D; POM 层数<br>option.POM_LAYERS.comment &#x3D; 调节 §bPOM§r 的质量, 层数越多, 细节越丰富. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.POM_LAYERS.32 &#x3D; §a32<br>value.POM_LAYERS.64 &#x3D; §e64<br>value.POM_LAYERS.128 &#x3D; §6128<br>value.POM_LAYERS.256 &#x3D; §c256<br>value.POM_LAYERS.512 &#x3D; §4512</p>
-<p>option.POM_DEPTH &#x3D; POM 深度<br>option.POM_DEPTH.comment &#x3D; 调节 §bPOM§r 的深度.</p>
-<p>option.POM_DISTANCE &#x3D; POM 渲染距离<br>option.POM_DISTANCE.comment &#x3D; 调节 §bPOM§r 的渲染距离. §c更高的值会有更好的结果, 但会降低 §c性能.</p>
-<p>option.POM_SHADOWING &#x3D; POM 阴影<br>option.POM_SHADOWING.comment &#x3D;为 §bPOM§r 计算阴影.<br>value.POM_SHADOWING.0 &#x3D; §c关<br>value.POM_SHADOWING.1 &#x3D; §a开</p>
-<p>option.POM_DEPTH_WRITE &#x3D; POM 写入深度<br>option.POM_DEPTH_WRITE.comment &#x3D; 写入 §bPOM§r 的深度到深度缓冲区. 这为向 §bPOM§r 应用像 &quot;环境光遮蔽&quot; 这样的效果带来可能. §c启用本选项会有更好的结果, 但会降低 §c性能.<br>value.POM_DEPTH_WRITE.0 &#x3D; §c关<br>value.POM_DEPTH_WRITE.1 &#x3D; §a开</p>
-<h3 id="TERRAIN"><a href="#TERRAIN" class="headerlink" title="TERRAIN"></a>TERRAIN</h3><p>option.WHITE_WORLD &#x3D; 白色世界<br>option.WHITE_WORLD.comment &#x3D; 使环境中所有方块纹理完全变白.<br>value.WHITE_WORLD.0 &#x3D; §c关<br>value.WHITE_WORLD.1 &#x3D; §c开</p>
-<p>option.WAVING_PLANTS &#x3D; 植物摇晃<br>option.WAVING_PLANTS.comment &#x3D; 让树叶和花朵等植物随风摇摆.<br>value.WAVING_PLANTS.0 &#x3D; §c关<br>value.WAVING_PLANTS.1 &#x3D; §c开</p>
-<p>option.RAIN_PUDDLES &#x3D; 雨天水坑<br>option.RAIN_PUDDLES.comment &#x3D; 模拟雨天地面积水的情景.<br>value.RAIN_PUDDLES.0 &#x3D; §c关<br>value.RAIN_PUDDLES.1 &#x3D; §c开</p>
-<p>option.RAIN_PUDDLES_SIZE &#x3D; 雨坑大小<br>option.RAIN_PUDDLES_SIZE.comment &#x3D; 调节 §b雨天水坑§r 的大小.<br>suffix.RAIN_PUDDLES_SIZE &#x3D; %</p>
-<p>##################### CAMERA SETTINGS #####################</p>
-<p>option.EXPOSURE &#x3D; 曝光<br>option.EXPOSURE.comment &#x3D; §a手动§r: 手动调节相机参数来调整曝光度. §a平均§r: 根据屏幕平均亮度自动调整曝光度. §a直方图§r: 根据屏幕亮度平均直方图的中值自动调整曝光.<br>value.EXPOSURE.0 &#x3D; §e§l手动<br>value.EXPOSURE.1 &#x3D; §e§l平均 (自动)<br>value.EXPOSURE.2 &#x3D; §e§l直方图 (自动)</p>
-<h1 id="https-www-nikonusa-com-en-learn-and-explore-a-tips-and-techniques-understanding-focal-length-html-text-Focal-20length-2C-20usually-20represented-20in-description-20of-20a-20photographic-20lens-text-The-20longer-20the-20focal-20length-and-20the-20lower-20the-20magnification"><a href="#https-www-nikonusa-com-en-learn-and-explore-a-tips-and-techniques-understanding-focal-length-html-text-Focal-20length-2C-20usually-20represented-20in-description-20of-20a-20photographic-20lens-text-The-20longer-20the-20focal-20length-and-20the-20lower-20the-20magnification" class="headerlink" title="https://www.nikonusa.com/en/learn-and-explore/a/tips-and-techniques/understanding-focal-length.html#:~:text=Focal%20length%2C%20usually%20represented%20in,description%20of%20a%20photographic%20lens.&amp;text=The%20longer%20the%20focal%20length,and%20the%20lower%20the%20magnification."></a><a target="_blank" rel="noopener" href="https://www.nikonusa.com/en/learn-and-explore/a/tips-and-techniques/understanding-focal-length.html#:~:text=Focal%20length%2C%20usually%20represented%20in,description%20of%20a%20photographic%20lens.&amp;text=The%20longer%20the%20focal%20length,and%20the%20lower%20the%20magnification">https://www.nikonusa.com/en/learn-and-explore/a/tips-and-techniques/understanding-focal-length.html#:~:text=Focal%20length%2C%20usually%20represented%20in,description%20of%20a%20photographic%20lens.&amp;text=The%20longer%20the%20focal%20length,and%20the%20lower%20the%20magnification</a>.</h1><p>option.FOCAL &#x3D; 焦距<br>option.FOCAL.comment &#x3D; 焦距一般以毫米为单位, 是摄影中相机镜头的基本参数. 焦距越长, 视角越窄. 影响 §b景深§r 效果.<br>suffix.FOCAL &#x3D; mm</p>
-<h1 id="https-www-nikonusa-com-en-learn-and-explore-a-tips-and-techniques-understanding-maximum-aperture-html-text-What-20is-20aperture-20in-20photography-diaphragm-20through-20which-20light-20passes-text-Lower-20f-2Fstops-20give-20more-because-20they-20represent-20smaller-20apertures"><a href="#https-www-nikonusa-com-en-learn-and-explore-a-tips-and-techniques-understanding-maximum-aperture-html-text-What-20is-20aperture-20in-20photography-diaphragm-20through-20which-20light-20passes-text-Lower-20f-2Fstops-20give-20more-because-20they-20represent-20smaller-20apertures" class="headerlink" title="https://www.nikonusa.com/en/learn-and-explore/a/tips-and-techniques/understanding-maximum-aperture.html#:~:text=What%20is%20aperture%20in%20photography,diaphragm%20through%20which%20light%20passes.&amp;text=Lower%20f%2Fstops%20give%20more,because%20they%20represent%20smaller%20apertures."></a><a target="_blank" rel="noopener" href="https://www.nikonusa.com/en/learn-and-explore/a/tips-and-techniques/understanding-maximum-aperture.html#:~:text=What%20is%20aperture%20in%20photography,diaphragm%20through%20which%20light%20passes.&amp;text=Lower%20f%2Fstops%20give%20more,because%20they%20represent%20smaller%20apertures">https://www.nikonusa.com/en/learn-and-explore/a/tips-and-techniques/understanding-maximum-aperture.html#:~:text=What%20is%20aperture%20in%20photography,diaphragm%20through%20which%20light%20passes.&amp;text=Lower%20f%2Fstops%20give%20more,because%20they%20represent%20smaller%20apertures</a>.</h1><p>option.F_STOPS &#x3D; 光圈<br>option.F_STOPS.comment &#x3D; 可通过光线的镜头光圈开口, 数值越低, 捕捉的光线越多.<br>prefix.F_STOPS &#x3D; ƒ&#x2F;</p>
-<h1 id="https-wp-modula-com-what-is-iso-in-photography"><a href="#https-wp-modula-com-what-is-iso-in-photography" class="headerlink" title="https://wp-modula.com/what-is-iso-in-photography/"></a><a target="_blank" rel="noopener" href="https://wp-modula.com/what-is-iso-in-photography/">https://wp-modula.com/what-is-iso-in-photography/</a></h1><p>option.ISO &#x3D; ISO<br>option.ISO.comment &#x3D; 可调节 ISO 来使照片变亮或变暗, 提高 ISO 会使照片变亮, 有助于较暗的环境中拍摄出好照片.</p>
-<h1 id="https-imaging-nikon-com-lineup-dslr-basics-04-03-htm-text-Shutter-20speed-20is-20a-20measurement-1-2F-20500-20s-2C-20etc-text-In-20other-20words-2C-20the-20faster-the-20effects-20of-20camera-20shake"><a href="#https-imaging-nikon-com-lineup-dslr-basics-04-03-htm-text-Shutter-20speed-20is-20a-20measurement-1-2F-20500-20s-2C-20etc-text-In-20other-20words-2C-20the-20faster-the-20effects-20of-20camera-20shake" class="headerlink" title="https://imaging.nikon.com/lineup/dslr/basics/04/03.htm#:~:text=Shutter%20speed%20is%20a%20measurement,1%2F%20500%20s%2C%20etc.&amp;text=In%20other%20words%2C%20the%20faster,the%20effects%20of%20camera%20shake."></a><a target="_blank" rel="noopener" href="https://imaging.nikon.com/lineup/dslr/basics/04/03.htm#:~:text=Shutter%20speed%20is%20a%20measurement,1%2F%20500%20s%2C%20etc.&amp;text=In%20other%20words%2C%20the%20faster,the%20effects%20of%20camera%20shake">https://imaging.nikon.com/lineup/dslr/basics/04/03.htm#:~:text=Shutter%20speed%20is%20a%20measurement,1%2F%20500%20s%2C%20etc.&amp;text=In%20other%20words%2C%20the%20faster,the%20effects%20of%20camera%20shake</a>.</h1><p>option.SHUTTER_SPEED &#x3D; 快门速度<br>option.SHUTTER_SPEED.comment &#x3D; 衡量相机快门打开的时间的参数, 以几分之一秒表示.<br>prefix.SHUTTER_SPEED &#x3D; 1&#x2F;<br>suffix.SHUTTER_SPEED &#x3D; s</p>
-<p>##################### DEPTH OF FIELD #####################</p>
-<p>option.DOF &#x3D; 景深 (DOF)<br>option.DOF.comment &#x3D; 模糊失焦物体. 受在相机设置中的 §e光圈§r 和 §e焦距§r 参数选项影响.<br>value.DOF.0 &#x3D; §c关<br>value.DOF.1 &#x3D; §c开</p>
-<p>option.DOF_SAMPLES &#x3D; DOF 采样值<br>option.DOF_SAMPLES.comment &#x3D; 调节 §b景深§r 采样的次数. §c更高的值会有更好的结果, 但会降低 §c性能.<br>value.DOF_SAMPLES.4 &#x3D; §b4<br>value.DOF_SAMPLES.6 &#x3D; §36<br>value.DOF_SAMPLES.8 &#x3D; §28<br>value.DOF_SAMPLES.10 &#x3D; §a10<br>value.DOF_SAMPLES.12 &#x3D; §e12<br>value.DOF_SAMPLES.14 &#x3D; §614<br>value.DOF_SAMPLES.16 &#x3D; §c16</p>
-<p>option.DOF_RADIUS &#x3D; DOF 半径<br>option.DOF_RADIUS.comment &#x3D; 调节 §b景深§r 的强度.</p>
-<p>option.DOF_DEPTH &#x3D; DOF 对焦深度<br>option.DOF_DEPTH.comment &#x3D; 调节 §b景深§r 对焦的深度. 单位: 方块.<br>value.DOF_DEPTH.0 &#x3D; §e自动对焦</p>
-<p>##################### COLOR GRADING #####################</p>
-<p>option.TONEMAP &#x3D; 色调映射<br>option.TONEMAP.comment &#x3D; 应用颜色校正滤镜.<br>value.TONEMAP.-1 &#x3D; §c关<br>value.TONEMAP.0 &#x3D; AgX<br>value.TONEMAP.1 &#x3D; ACES<br>value.TONEMAP.2 &#x3D; Burgess<br>value.TONEMAP.3 &#x3D; Reinhard<br>value.TONEMAP.4 &#x3D; Lottes<br>value.TONEMAP.5 &#x3D; Uchimura<br>value.TONEMAP.6 &#x3D; Uncharted 2</p>
-<p>option.LUT &#x3D; LUT<br>option.LUT.comment &#x3D; 选择查找表 (LUT) 应用颜色校正滤镜. 颜色分级的一部分.<br>value.LUT.0  &#x3D; §c关<br>value.LUT.1  &#x3D; §eFuji 250D Fuji 3510<br>value.LUT.2  &#x3D; §eFuji 250D Kodak 2395<br>value.LUT.3  &#x3D; §eKodak 5218 Kodak 2383<br>value.LUT.4  &#x3D; §eFuji f125 Kodak 2393<br>value.LUT.5  &#x3D; §eCandle Light<br>value.LUT.6  &#x3D; §eArabica<br>value.LUT.7  &#x3D; §eLate Sunset<br>value.LUT.8  &#x3D; §eEdgy Amber<br>value.LUT.9  &#x3D; §eCrisp Warm<br>value.LUT.10 &#x3D; §eCrisp Winter<br>value.LUT.11 &#x3D; §eMcKinnon 75<br>value.LUT.12 &#x3D; §eMilo 5<br>value.LUT.13 &#x3D; §eZed 32<br>value.LUT.14 &#x3D; §eFilmstock<br>value.LUT.15 &#x3D; §eValley Mist<br>value.LUT.16 &#x3D; §eNight Colors<br>value.LUT.17 &#x3D; §eBinary Code<br>value.LUT.18 &#x3D; §eBlack and Red<br>value.LUT.19 &#x3D; §e2Strip<br>value.LUT.20 &#x3D; §eFuturistic Bleak</p>
-<p>option.PURKINJE &#x3D; 低照明水平去饱和<br>option.PURKINJE.comment &#x3D; 根据照明水平调节颜色强度. 通常称为柏金赫效应.<br>value.PURKINJE.0 &#x3D; §c关<br>value.PURKINJE.1 &#x3D; §c开</p>
-<p>option.WHITE_BALANCE &#x3D; 白平衡<br>option.WHITE_BALANCE.comment &#x3D; 通过平衡色温来使图像保持中性.<br>suffix.WHITE_BALANCE &#x3D; K</p>
-<h1 id="http-www-digital-intermediate-co-uk-colour-colourterminology-htm"><a href="#http-www-digital-intermediate-co-uk-colour-colourterminology-htm" class="headerlink" title="http://www.digital-intermediate.co.uk/colour/colourterminology.htm"></a><a target="_blank" rel="noopener" href="http://www.digital-intermediate.co.uk/colour/colourterminology.htm">http://www.digital-intermediate.co.uk/colour/colourterminology.htm</a></h1><p>option.VIBRANCE &#x3D; 自然饱和度<br>option.VIBRANCE.comment &#x3D; 指明亮艳丽的颜色. 为平淡的颜色增加饱和度.</p>
-<p>option.SATURATION &#x3D; 饱和度<br>option.SATURATION.comment &#x3D; 饱和度是指图像中的色彩饱和度或色度信息量.</p>
-<p>option.CONTRAST &#x3D; 对比度<br>option.CONTRAST.comment &#x3D; 图像的亮度或颜色差异.</p>
-<p>option.GAMMA &#x3D; 伽马<br>option.GAMMA.comment &#x3D; 处理暗部和亮部之间的图像层次, 即通常所说的中间色调.</p>
-<p>option.GAIN &#x3D; 亮部增益<br>option.GAIN.comment &#x3D; 调节图像亮部水平 (高光), 使亮部变暗或更亮 - 颜色越亮变化越大.</p>
-<p>option.LIFT &#x3D; 暗部增益<br>option.LIFT.comment &#x3D; 调节图像暗部水平 (暗色或阴影).</p>
-<p>##################### ANTI-ALIASING #####################</p>
-<p>option.TAA &#x3D; 时间性抗锯齿 (TAA)<br>option.TAA.comment &#x3D; §b时间性抗锯齿. §r一种混合前帧来减少锯齿的抗锯齿方法.<br>value.TAA.0 &#x3D; §c关<br>value.TAA.1 &#x3D; §c开</p>
-<p>option.TAA_STRENGTH &#x3D; TAA 强度<br>option.TAA_STRENGTH.comment &#x3D; 调节 §b时间性抗锯齿§r 的强度.</p>
-<p>option.TAA_OFFCENTER_REJECTION &#x3D; 偏心运动抑制<br>option.TAA_OFFCENTER_REJECTION.comment &#x3D; 调节 §b时间性抗锯齿§r 偏心运动帧的权重强度. 数值越低, 镜头运动时的 TAA 强度越低.</p>
-<p>##################### POST-PROCESSING #####################</p>
-<p>option.EIGHT_BITS_FILTER &#x3D; 8-Bits 滤镜<br>option.EIGHT_BITS_FILTER.comment &#x3D; 使游戏像是老式 8-bits 游戏.<br>value.EIGHT_BITS_FILTER.0 &#x3D; §c关<br>value.EIGHT_BITS_FILTER.1 &#x3D; §c开</p>
-<p>option.BLOOM &#x3D; 泛光<br>option.BLOOM.comment &#x3D; 允许明亮区域周围发出辉光.<br>value.BLOOM.0 &#x3D; §c关<br>value.BLOOM.1 &#x3D; §c开</p>
-<p>option.BLOOM_STRENGTH &#x3D; 泛光强度<br>option.BLOOM_STRENGTH.comment &#x3D; 调节 §b泛光§r 的强度.</p>
-<p>option.VIGNETTE &#x3D; 暗角<br>option.VIGNETTE.comment &#x3D; 使屏幕边缘变暗.<br>value.VIGNETTE.0 &#x3D; §c关<br>value.VIGNETTE.1 &#x3D; §c开</p>
-<p>option.VIGNETTE_STRENGTH &#x3D; 暗角强度<br>option.VIGNETTE_STRENGTH.comment &#x3D; 调节 §b暗角§r 的强度.</p>
-<p>option.FILM_GRAIN &#x3D; 胶片颗粒<br>option.FILM_GRAIN.comment &#x3D; 在屏幕上方显示移动的颗粒, 模仿老电影效果.<br>value.FILM_GRAIN.0 &#x3D; §c关<br>value.FILM_GRAIN.1 &#x3D; §c开</p>
-<p>option.FILM_GRAIN_STRENGTH &#x3D; 胶片颗粒强度<br>option.FILM_GRAIN_STRENGTH.comment &#x3D; 调节 §b胶片颗粒§r 的强度.</p>
-<p>option.SHARPEN &#x3D; 锐化过滤<br>option.SHARPEN.comment &#x3D; 强调颜色使其更锐利.<br>value.SHARPEN.0 &#x3D; §c关<br>value.SHARPEN.1 &#x3D; §c开</p>
-<p>option.SHARPEN_STRENGTH &#x3D; 锐化强度<br>option.SHARPEN_STRENGTH.comment &#x3D; 调节 §b锐化过滤§r 的强度.</p>
-<p>option.CEL_SHADING &#x3D; 卡通渲染<br>option.CEL_SHADING.comment &#x3D; 平铺阴影和颜色, 使画面看起来像卡通片.<br>value.CEL_SHADING.0 &#x3D; §c关<br>value.CEL_SHADING.1 &#x3D; §c开</p>
-<p>option.CEL_SHADES &#x3D; 卡通渲染阴影量<br>option.CEL_SHADES.comment &#x3D; 调节 §b卡通渲染§r 的阴影量.</p>
-<p>##################### DEBUG #####################</p>
-<p>option.DEBUG_HISTOGRAM &#x3D; 显示直方图<br>value.DEBUG_HISTOGRAM.0 &#x3D; §c关<br>value.DEBUG_HISTOGRAM.1 &#x3D; §c开</p>
-<p>option.DEBUG_LUT &#x3D; 显示 LUT<br>value.DEBUG_LUT.0 &#x3D; §c关<br>value.DEBUG_LUT.1 &#x3D; §c开</p>
-
-	
-
-	
-
+         
+    </div>
+    
+     
+    <a class="right-panel  non-pic  "
+      
+      href="/2025/09/17/zh_cn/" 
+    >
+       
+      <i class="fa-solid fa-angle-right non-pic"></i>
+       
+    </a>
+     
+  </div>
+  
 </article>
 
 
@@ -364,45 +310,121 @@
 
 
 
-	<span class="different-posts">📕 end of posts 📕</span>
+
+   
 
 
-	</main>
-
-	<footer class="footer">
-	<div class="footer-content">
-		
-	      <div class="footer__element">
-	<p>Hi there, <br />welcome to my Blog glad you found it. Have a look around, will you?</p>
+<article id="post-Noble" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+   
+  <div class="article-inner">
+    <div class="article-main">
+      <header class="article-header">
+        
+<div class="main-title-bar">
+  <div class="main-title-dot"></div>
+  
+    
+      <h1 itemprop="name">
+        <a class="p-name article-title" href="/2025/09/16/Noble/">Noble</a>
+      </h1>
+    
+  
 </div>
 
-	    
-	      <div class="footer__element">
-	<h5>Check out</h5>
-	<ul class="footer-links">
-		<li class="footer-links__link"><a href="/archives">Archive</a></li>
-		
-		  <li class="footer-links__link"><a href="/atom.xml">RSS</a></li>
-	    
-		<li class="footer-links__link"><a href="/about">about page</a></li>
-		<li class="footer-links__link"><a href="/tags">Tags</a></li>
-		<li class="footer-links__link"><a href="/categories">Categories</a></li>
-	</ul>
+        <div class='meta-info-bar'>
+          <div class="meta-info">
+  <time class="dt-published" datetime="2025-09-16T07:46:17.000Z" itemprop="datePublished">2025-09-16</time>
 </div>
+          <div class="need-seperator meta-info">
+            <div class="meta-cate-flex">
+  
+    Uncategorized 
+   
+</div>
+  
+          </div>
+          <div class="wordcount need-seperator meta-info">
+            27k words 
+          </div>
+        </div>
+        
+      </header>
+      <div class="e-content article-entry" itemprop="articleBody">
+        
+          <div class="truncate-text">
+            
+              以下是Noble v1.6汉化
+##################### MISC #####################
+profile.RENDER  &#x3D; §a§l渲染模式profile.DEFAULT &#x3D; §a§l默认模式profile.comment  &#x3D; §l默认模式§r 配置文件指默认设置的 Noble. §r§l渲染模式§r 配置文件通过增强部分设置, 使 Noble 转为渲染器. §c§l免责声明: 渲染模式可能会严重影响性能.
+option.RENDER_SCALE &#x3D; 渲染倍率option.RENDER_SCALE.comment &#x3D; 调节 Noble 的全局渲染倍率. §c更高的数值会有更好的画面效果, 但会降低 §c性能.suffix.RENDER_SCALE &#x3D; x
+##################### SCREENS #####################
+screen.LIGHTING          &#x3D; 照明screen.AMBIENT_OCCLUSION &#...
+            
+          </div>
+        
+      </div>
 
-	    
+         
+    </div>
+    
+     
+    <a class="right-panel  non-pic  "
+      
+      href="/2025/09/16/Noble/" 
+    >
+       
+      <i class="fa-solid fa-angle-right non-pic"></i>
+       
+    </a>
+     
+  </div>
+  
+</article>
 
-		<div class="footer-credit">
-			<span>© 2025 John Doe | Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> | Theme <a target="_blank" rel="noopener" href="https://github.com/HoverBaum/meilidu-hexo">MeiliDu</a></span>
-		</div>
-
-	</div>
 
 
+
+
+
+
+
+
+    </div>
+    <div id="footer-wrapper">
+      <footer id="footer">
+  
+  <div id="footer-info" class="inner">
+    
+    &copy; 2025 Your Name<br>
+    Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> & Theme <a target="_blank" rel="noopener" href="https://github.com/saicaca/hexo-theme-vivia">Vivia</a>
+  </div>
 </footer>
 
+    </div>
+    <div class="back-to-top-wrapper">
+    <button id="back-to-top-btn" class="back-to-top-btn hide" onclick="topFunction()">
+        <i class="fa-solid fa-angle-up"></i>
+    </button>
+</div>
 
+<script>
+    function topFunction() {
+        window.scroll({ top: 0, behavior: 'smooth' });
+    }
+    let btn = document.getElementById('back-to-top-btn');
+    function scrollFunction() {
+        if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+            btn.classList.remove('hide')
+        } else {
+            btn.classList.add('hide')
+        }
+    }
+    window.onscroll = function() {
+        scrollFunction();
+    }
+</script>
 
+  </div>
+  <script src="/js/light-dark-switch.js"></script>
 </body>
-
 </html>
